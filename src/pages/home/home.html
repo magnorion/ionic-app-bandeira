@@ -1,14 +1,25 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Game Bandeira
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  
+  <ion-card>
+    <ion-card-header> Jogo das Bandeiras </ion-card-header>
+    <ion-card-content>
+      <p> Para iniciar, só informar o nome: </p>
+      <ion-item>
+        <ion-input placeholder="Nome" type="text" [(ngModel)]="nome"></ion-input>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+  <button (click)="iniciarJogo()" ion-button color="secondary" outline round block>
+    <ion-icon  name="ios-arrow-dropleft"></ion-icon> 
+    Iniciar o Jogo
+  </button>
+  
 </ion-content>

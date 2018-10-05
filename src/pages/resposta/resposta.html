@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Final
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-card>
+    <ion-card-header> Pontuação Final </ion-card-header>
+    <ion-card-content>
+      <p> Olá {{nome}}, sua pontuaço final foi {{score}} </p>
+    </ion-card-content>
+  </ion-card>
+  <button (click)="iniciarJogo()" ion-button color="secondary" outline round block>
+    <ion-icon name="ios-arrow-dropleft"></ion-icon>
+    Reiniciar o Jogo!
+  </button>
+
+</ion-content>
