@@ -1,0 +1,7 @@
+{
+  "name": "game-flag",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
